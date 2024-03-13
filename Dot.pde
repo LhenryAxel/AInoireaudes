@@ -81,7 +81,7 @@ class Dot {
         reachedGoal = true;
         dead = true;
       }
-      /*else if(pos.x > 0 && pos.y > 300 && pos.x < 450 && pos.y < 310 ){
+      else if(pos.x > 0 && pos.y > 300 && pos.x < 450 && pos.y < 310 ){
         dead = true;
       }
       else if(pos.x > 500 && pos.y > 300 && pos.x < 950 && pos.y < 310){
@@ -107,7 +107,7 @@ class Dot {
       }
       else if(pos.x > 550 && pos.y > 50 && pos.x < 560 && pos.y < 225){
         dead = true;
-      }*/
+      }
       else if(brain.step>500){
         dead = true;
       }
