@@ -7,7 +7,7 @@ void setup(){
   size(950,900);
   frameRate(300);
   
-  test = new Population(500);
+  test = new Population(1200);
   goal = new Goal(xGoal,yGoal);
   
 
