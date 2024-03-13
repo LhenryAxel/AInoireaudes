@@ -1,0 +1,10 @@
+pop : 300, crossover 0.7
+  gen : 2095
+  step : 564
+
+
+pop 1000, best cross 0.15, cross 0.5, mutation 0.045 : 
+gen 1050
+step 422
+
+pop 2000, best cross 0.15, cross 0.5, mutation 0.045 :
